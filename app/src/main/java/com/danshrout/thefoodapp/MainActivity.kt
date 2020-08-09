@@ -21,10 +21,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        //TODO Build out restaurant features after MVP is complete.
         //Navigate to restaurant page
-        restaurants_button.setOnClickListener {
-            val intent = Intent( this, RestaurantActivity::class.java)
-            startActivity(intent)
-        }
+//        restaurants_button.setOnClickListener {
+//            val intent = Intent( this, RestaurantActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
