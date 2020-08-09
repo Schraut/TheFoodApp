@@ -8,6 +8,7 @@
             <PersistentState />
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -46,6 +47,8 @@
             </PersistentState>
           </value>
         </entry>
+=======
+>>>>>>> 37bab9ec2ab18d3511da658a32eab85a8692b364
       </map>
     </option>
   </component>
