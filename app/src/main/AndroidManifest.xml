@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
-=======
->>>>>>> 37bab9ec2ab18d3511da658a32eab85a8692b364
     package="com.danshrout.thefoodapp">
 
     <application
@@ -13,24 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".AddRecipeActivity"
-            android:parentActivityName=".RecipeActivity"></activity>
-        <activity android:name=".SplashScreen">
-=======
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
->>>>>>> 37bab9ec2ab18d3511da658a32eab85a8692b364
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
-        <activity android:name=".TestingStuff" />
->>>>>>> 37bab9ec2ab18d3511da658a32eab85a8692b364
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,8 +25,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecipeActivity" />
-        <activity android:name=".RestaurantActivity" />
     </application>
 
 </manifest>
