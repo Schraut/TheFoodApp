@@ -7,10 +7,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.danshrout.thefoodapp.R
-import com.danshrout.thefoodapp.models.RecipeItem
+import com.danshrout.thefoodapp.models.Recipe
 import kotlinx.android.synthetic.main.recipe_item.view.*
 
-open class RecipeAdapter(private val recipeList: List<RecipeItem>) : RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder>() {
+open class RecipeAdapter(
+    private val recipeList: List<Recipe>
+) : RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.recipe_item, parent, false)

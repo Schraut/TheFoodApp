@@ -5,10 +5,10 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "recipe_table")
-data class RecipeItem(
+data class Recipe(
 
     @PrimaryKey(autoGenerate = true)
-    var id: Int,
+    var recipeId: Int,
 
     @ColumnInfo(name = "image")
     val image: Int,
