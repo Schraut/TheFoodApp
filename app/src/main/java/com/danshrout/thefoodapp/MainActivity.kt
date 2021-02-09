@@ -48,4 +48,5 @@ class MainActivity : AppCompatActivity() {
 //
 //    fun deleteRecipe(view: View) {
 //    }
+    // Github is showing my commits. I added my email to git config
 }
