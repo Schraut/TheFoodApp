@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
         //rv_recipes.adapter = RecipeAdapter(dummyData)
         // RecylcerView need a manager since it can't do it
         // LinearLayout displays the items vertically
-        rv_recipes.layoutManager = LinearLayoutManager(this)
+        //rv_recipes.layoutManager = LinearLayoutManager(this)
         // For fixed width and height for performance optimization
-        rv_recipes.setHasFixedSize(true)
+        //rv_recipes.setHasFixedSize(true)
     }
 
 //    private fun dummyDataList(size: Int): List<Recipe> {
@@ -43,9 +43,9 @@ class MainActivity : AppCompatActivity() {
 //        return list
 //    }
 
-    fun addRecipe(view: View) {
-    }
-
-    fun deleteRecipe(view: View) {
-    }
+//    fun addRecipe(view: View) {
+//    }
+//
+//    fun deleteRecipe(view: View) {
+//    }
 }
